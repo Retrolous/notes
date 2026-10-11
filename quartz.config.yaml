@@ -256,6 +256,21 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/latex
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+  - source: github:quartz-community/syntax-highlighting
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+      clipboard: true
+      tokenClassification: true
+    order: 20
 layout:
   groups:
     toolbar:

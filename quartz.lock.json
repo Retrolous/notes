@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "latex": {
+      "source": "github:quartz-community/latex",
+      "resolved": "https://github.com/quartz-community/latex.git",
+      "commit": "5b9b86415be06395a855d01e8899d625e5131d5b",
+      "installedAt": "2026-10-11T20:15:26.438Z"
+    },
+    "syntax-highlighting": {
+      "source": "github:quartz-community/syntax-highlighting",
+      "resolved": "https://github.com/quartz-community/syntax-highlighting.git",
+      "commit": "4070d683dba7c9d2b3f32851fea082d20f673a1f",
+      "installedAt": "2026-10-11T20:17:17.800Z"
+    }
+  }
+}
