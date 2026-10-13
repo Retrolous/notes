@@ -3,7 +3,7 @@ title:  Advice from the PPTs
 ---
 
 
-### DO NOT USE MAGIC NUMBERS
+### - DO NOT USE MAGIC NUMBERS
 
 As an example, see the code below:
 ``` haskell
@@ -45,13 +45,13 @@ a <-> b = alphaChr ((alphaOrd a - alphaOrd b) ‘mod‘ noOfLettersInAlphabet)
 
 Yes, this may seem superfluous, but for more complex examples it will contribute significantly to the maintainability and readability of your code.
 
-### TEST CASES ARE NOT COMPREHENSIVE; ADD YOUR OWN
+### - TEST CASES ARE NOT COMPREHENSIVE; ADD YOUR OWN
 
 Self-explanatory. Despite the resounding full marks given when you run `cabal test`, there may be edge cases that have not been accounted for (think n = 0, n is negative when no constraint has been given on n, etc.) 
 
 Ultimately, the test cases you write depend on the specific function, so spend more time thinking about how you can break more complex functions.
 
-### USE PATTERN-MATCHING INSTEAD OF GUARDS
+### - USE PATTERN-MATCHING INSTEAD OF GUARDS
 
 Consider the code:
 ``` haskell 
